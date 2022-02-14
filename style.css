@@ -124,8 +124,6 @@ body section p{
     border-top: solid 40px white;
 }
 
-<<<<<<< HEAD
-=======
 /* Animaciones */
 
 .AgrandarCaja{
@@ -147,7 +145,6 @@ body section p{
 }
 
 /* GRIDS */
->>>>>>> secundaria
 
 #gridAreasIndex {
     display: grid;
