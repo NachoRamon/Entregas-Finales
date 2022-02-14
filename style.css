@@ -49,12 +49,9 @@ body article p{
 
 body nav ul li {
     grid-area: menu;
-    display: flex;
     margin: 10px; 
     padding: 10px;
-    background-color: rgb(201, 201, 201);
     justify-content: center;
-    flex-direction: row;
 }
 
 body section h2{
@@ -97,8 +94,9 @@ body footer div{
 .Repre{
     width: 100px;
     height: 100px;
-    margin-left: 300px;
-    position: relative;
+    margin-left: 230px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 body section p{
@@ -106,13 +104,7 @@ body section p{
 }
 
 .ImageBox{
-    background-color: #d3d3d3;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    border-top: solid 40px white;
+    background-color: antiquewhite;
 }
 
 .imag{
@@ -120,8 +112,21 @@ body section p{
     width: 150px;
     height: 150px;
     text-align: center;
-    /* padding-top: 10px; */
     border-top: solid 40px white;
+}
+
+.titulos{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.fondo{
+    background-color: #d3d3d3;
 }
 
 /* Animaciones */
@@ -151,16 +156,17 @@ body section p{
     /* grid por areas */
     grid-template-areas:
     /* 1 columnas y 5 filas */
-    "cabeza "/* fila 1 */
     "menu "
     "nosotros "
     "repre"
+    "productos"
+    "atajos"
     "lugar "/* fila 3 */
     "pie "/* fila 4 */
     ;
     /* Dimensiones */
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 0;
     }
 
@@ -212,12 +218,13 @@ body h1{
     "menu "
     "nosotros"
     "repre"
+    "atajos"
     "lugar "
     "pie "
     ;
     /* Dimensiones */
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 0;
     }
 
